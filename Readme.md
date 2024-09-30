@@ -24,7 +24,7 @@ Welcome to **RawUrban**, a fictional e-commerce website designed to showcase a u
 ---
 
 ## 📁 Project Structure
-
+```plaintext
 RawUrban/
 │
 ├── index.html          # Main HTML file
@@ -52,38 +52,46 @@ RawUrban/
 │
 └── videos/            # Folder for all videos used in the project
     └── [video files]
-
+```
 ---
-##🌟 Features
+## 🌟 Features
 
-Responsive Design: Fully responsive, ensuring a seamless user experience on both desktop and mobile devices.
+<p>Responsive Design: Fully responsive, ensuring a seamless user experience on both desktop and mobile devices.
 User-Friendly Navigation: Intuitive navigation structure for easy exploration of merchandise categories.
 Interactive Elements: Engaging elements powered by JavaScript, including pop-ups for product details and shopping cart functionality.
-Aesthetic Design: A modern, skater-inspired visual aesthetic that aligns with the RawUrban brand.
----
-##🚀 Installation
+Aesthetic Design: A modern, skater-inspired visual aesthetic that aligns with the RawUrban brand.</p>
 
-To view the website locally, follow these steps:
 ---
-Clone the repository:
-git clone https://github.com/yourusername/RawUrban.git
----
-Navigate to the project directory:
-cd RawUrban
+
+## 🚀 Installation
+
+### To view the website locally, follow these steps:
+
+#### Clone the repository:
+<p>git clone https://github.com/yourusername/RawUrban.git</p>
+
+#### Navigate to the project directory:
+<p>cd RawUrban</p>
 Open the index.html file in your preferred web browser.
+
 ---
 
-##🛍️ Usage
+## 🛍️ Usage
 
-Explore the RawUrban website to view the merchandise offerings, navigate through different product categories, and interact with the various features. The website is designed to simulate a real e-commerce experience.
+<p>Explore the RawUrban website to view the merchandise offerings, navigate through different product categories, and interact with the various features. The website is designed to simulate a real e-commerce experience.</p>
+
 ---
-##🤝 Contributing
 
-Contributions to enhance this project are welcome! If you have suggestions for improvements or features, feel free to submit a pull request or open an issue.
+## 🤝 Contributing
+
+<p>Contributions to enhance this project are welcome! If you have suggestions for improvements or features, feel free to submit a pull request or open an issue.</p>
+
 ---
-##📝 License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+## 📝 License
+
+<p>This project is licensed under the MIT License - see the LICENSE file for details.</p>
+
 ---
 
 
