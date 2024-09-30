@@ -35,7 +35,20 @@ RawUrban/
 │   ├── js/             # Folder for JavaScript files
 │   │   └── scripts.js   # Main JavaScript file
 │   └── images/         # Folder for all images used in the project
-│       └── [image files]
+│       ├── body.jpg    # Main body image
+│       ├── logo.png    # Logo image
+│       ├── beanies/     # Subfolder for beanie images
+│       │   └── [image files]
+│       ├── hats/        # Subfolder for hat images
+│       │   └── [image files]
+│       ├── hoodies/      # Subfolder for hoodie images
+│       │   └── [image files]
+│       ├── long-tees/    # Subfolder for long tee images
+│       │   └── [image files]
+│       ├── shoes/        # Subfolder for shoe images
+│       │   └── [image files]
+│       └── short-tees/    # Subfolder for short tee images
+│           └── [image files]
 │
 └── videos/            # Folder for all videos used in the project
     └── [video files]
