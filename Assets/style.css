@@ -1,0 +1,837 @@
+/* Global Styles */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  padding: 0;
+  margin: 0;
+  padding-top: 80px; /* Ensure content isn't hidden behind the fixed nav */
+  background-image: url('../Assets/images/body.jpg'); 
+  
+}
+
+a {
+  text-decoration: none; /* Removes underline */
+}
+/* Navigation */
+nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #111;
+  color: white;
+  padding: 10px 30px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.navTop {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: 48px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.logoImage {
+  width: 50px;
+  height: auto;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.search {
+  margin: 10px 0;
+}
+
+.searchInput {
+  width: 400px;
+  padding: 8px;
+  border: 1px solid #333;
+  border-radius: 5px;
+  background-color: #222;
+  color: #ccc;
+}
+
+.searchInput::placeholder {
+  color: #666;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.menuItem {
+  color: #f0f0f0; /* Lighter text color */
+  margin: 0 15px;
+  cursor: pointer;
+  font-weight: 600; /* Slightly bolder font */
+  text-transform: uppercase; /* Uppercase for a streetwear feel */
+  transition: color 0.3s, transform 0.3s;
+  font-size: 24px;
+}
+
+.menuItem:hover {
+  color: #f3ca12; /* Bright color for hover */
+  transform: scale(1.1); /* Slight zoom effect */
+}
+
+/* Headings */
+h1, h2 {
+  text-align: center;
+  color: #333;
+  padding: 50px 0;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+span {
+  color: red;
+}
+
+/* Slider Section */
+.video {
+  height: 75vh; /* Increased height */
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(to bottom, rgba(51, 51, 51, 0.8), rgba(119, 119, 119, 0.8)); /* Gradient for fade effect */
+  box-shadow: 0 10px 20px rgba(255, 255, 255, 0.6); 
+}
+
+.videoContainer {
+  width: 100%;
+  height: 100%; /* Full height of the slider */
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  box-shadow: 0 10px 20px rgba(255, 255, 255, 0.6); 
+}
+
+.videoContainer video {
+  width: 100%;
+  height: 100%; /* Full height of the container */
+  object-fit: cover;
+  border: none;
+  pointer-events: none;
+  box-shadow: 0 10px 20px rgba(255, 255, 255, 0.6); 
+}
+
+.textOverlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Nosifer', cursive;
+  color: white;
+  font-size: 48px;
+  text-align: center;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Shadow for better readability */
+}
+
+.brand-intro {
+  background-color: white;
+  padding: 60px 0; /* Vertical padding */
+  text-align: center; /* Center-align text */
+ 
+}
+
+.brand-intro {
+  max-width: 900px; /* Maximum width for the section */
+  margin: 0 auto; /* Center horizontally */
+  padding: 40px; /* Padding inside the section */
+  background: #fff; /* White background */
+  border-radius: 12px; /* Rounded corners */
+  color: #333; /* Dark text color for contrast */
+  display: flex;
+  box-shadow: 20px 20px 30px white; /* White box glow shadow */
+}
+
+.brand-intro h1 {
+  display: inline-block; /* Allows background to fit the text */
+  color: white;
+  padding: 20px 50px; /* Adjust padding as needed */
+  border-radius: 10px;
+  font-size: 48px;
+  background-color: darkred;
+  margin: 0 auto; /* Center the element horizontally */
+  text-align: center; /* Center text inside the heading */
+  /* Additional centering for the container */
+  width: fit-content; /* Adjust the width to fit the content */
+}
+
+.brand-intro p {
+  font-size: 1.2em; /* Slightly larger text size */
+  line-height: 1.8; /* Increased line spacing */
+  margin-bottom: 20px; /* Space between paragraphs */
+  font-family: 'Verdana', sans-serif; /* Clear and readable font */
+  color: #555; /* Slightly lighter dark text color for better readability */
+}
+
+.brand-intro p:last-of-type {
+  margin-bottom: 0; /* Remove margin from last paragraph */
+}
+
+
+
+/* Products Section */
+.products {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  margin: 0; /* Ensure no extra margin */
+  box-sizing: border-box; /* Include padding in the element’s total width and height */
+  position: relative; /* Ensure it's positioned correctly */
+  overflow: hidden;
+}
+
+.products-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.products-header h2 {
+  display: inline-block; /* Allows background to fit the text */
+  color: white;
+  padding: 20px 50px; /* Adjust padding as needed */
+  border-radius: 10px;
+  font-size: 48px;
+  background-color: darkred;
+  margin: 0 auto; /* Center the element horizontally */
+  text-align: center; /* Center text inside the heading */
+  /* Additional centering for the container */
+  width: fit-content; /* Adjust the width to fit the content */
+}
+
+.sort-category{
+  background-color: darkred;
+  color: white;
+  padding: 8px;
+  border-radius: 5px;
+  font-size: 24px;
+  border: none;
+  outline: none;
+}
+
+
+
+.all-products {
+  display: flex;
+  justify-content: center; /* Center the product cards */
+  flex-wrap: wrap;
+}
+
+.product {
+  overflow: hidden;
+  background: #ffffff;
+  color: #21201e;
+  text-align: center;
+  width: 240px;
+  height: 400px;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1.2rem;
+  margin: 2rem;
+  position: relative;
+}
+
+.product .product-title,
+.product .product-price {
+  font-size: 18px;
+}
+
+.product img {
+  height: 150px; /* Smaller image */
+  margin: 1rem;
+  transition: all 0.3s;
+}
+
+.product:hover img {
+  scale: 1.1;
+}
+
+.product:hover {
+  box-shadow: 5px 15px 25px #eeeeee;
+}
+
+.product-btn {
+  background-color: #c62828; /* Dark red button */
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.product-btn:hover {
+  background-color: #b71c1c; /* Darker red on hover */
+}
+
+/* Product Rating */
+.product-rating {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.star {
+  font-size: 20px;
+  color: gray;
+  cursor: pointer;
+}
+
+.star.active {
+  color: gold;
+}
+
+.average-rating {
+  font-size: 18px;
+  margin-left: 10px;
+  color: black;
+}
+
+/* Popup Styles */
+.product-popup {
+  display: none; /* Ensure popup is hidden initially */
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%; /* Adjusted width */
+  max-width: 600px; /* Increased max-width */
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  z-index: 2000;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.popup-content {
+  background: #fff;
+  border-radius: 8px;
+  width: 100%;
+  padding: 20px;
+  position: relative;
+  text-align: center; /* Center text and inline elements */
+}
+
+.popup-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  cursor: pointer;
+  color: #c62828; /* Red color for close button */
+  z-index: 2100; /* Ensure it is above all other content */
+}
+
+.popup-image {
+  max-width: 100%; /* Ensure image fits within popup */
+  height: auto;
+  margin: 20px 0; /* Vertical margins to center image */
+}
+
+.popup-title {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.popup-price {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.size-select {
+  margin-bottom: 15px;
+}
+
+.add-to-cart {
+  padding: 10px 20px;
+  background-color: #c62828; /* Red background */
+  color: #fff; /* White text */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.add-to-cart:hover {
+  background-color: #b71c1c; /* Darker red on hover */
+}
+
+/* Ensure no scroll when popup is open */
+body.popup-open {
+  overflow: hidden;
+}
+
+/* Footer */
+footer {
+  background: linear-gradient(135deg, #000, #333);
+  color: #fff;
+  padding: 20px;
+}
+
+/* Responsive Styling */
+@media screen and (max-width: 1200px) {
+  /* Adjust product grid layout on medium screens */
+  .all-products {
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .product {
+    width: 200px; /* Slightly smaller product cards */
+    height: auto; /* Adjust to content */
+  }
+}
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-left {
+  max-width: 250px;
+  margin:0%;
+  
+}
+
+.newsletter p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+form {
+  display: flex;
+  gap: 10px;
+}
+
+form input[type="email"] {
+  padding: 8px;
+  border: 1px solid #000;
+  width: 70%;
+}
+
+form button {
+  padding: 8px;
+  background-color: darkred;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #555;
+}
+
+.social-icons a {
+  margin-right: 10px;
+  font-size: 24px;
+  color: gold; /* Make the icons yellow */
+  text-decoration: none;
+}
+
+.social-icons a:hover {
+  color: yellow; /* A lighter shade of yellow on hover */
+}
+
+/* Footer Center & Right Styling */
+.footer-center, .footer-right {
+  display: flex;
+  flex-direction: column;
+  margin: 0%;
+}
+
+.footer-center ul, .footer-right ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-center li, .footer-right li {
+  margin-bottom: 10px;
+}
+
+.footer-center li a, .footer-right li a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-center li a:hover, .footer-right li a:hover {
+  text-decoration: underline;
+  color:gold ;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding: 10px;
+  border-top: 1px solid #444;
+  margin-top: 20px;
+}
+
+.footer-bottom p {
+  margin: 0;
+}
+/* Account and Cart Section */
+.account-cart {
+  display: flex;
+  gap: 30px; /* Space between account and cart */
+  align-items: center;
+  font-size: 18px; /* Consistent size */
+  margin-right: 100px;
+}
+
+.account, .cart {
+  display: flex;
+  align-items: center;
+  color: white;
+  cursor: pointer;
+}
+
+.account i, .cart i {
+  margin-right: 8px; /* Space between icon and text */
+}
+
+.account:hover, .cart:hover {
+  color: #f3ca12; /* Bright hover effect, matching other menu items */
+}
+.cart-icon {
+  display: flex;
+  align-items: center;
+}
+
+/* Adding space between the cart icon and the number */
+.cart-count {
+  margin-left: 10px; /* Adjust the space as needed */
+  font-size: 16px;   /* Customize the number size */
+  color: white;      /* Ensure visibility, adjust the color as needed */
+}
+
+/* Optional hover effect */
+.cart-icon:hover .cart-count {
+  color: #f3ca12; /* Change the color on hover, if desired */
+}
+
+/* Cart Popup Styling */
+.cart-popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    z-index: 1000; /* Ensure it's above other content */
+    display: none; /* Start hidden */
+    width: 500px;
+    height: auto;
+}
+
+.cart-popup.open {
+  opacity: 1;
+}
+
+.cart-popup .cart-header {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333; /* Keep your original text color */
+}
+
+.cart-popup .cart-items {
+  max-height: 300px;
+  overflow-y: auto; /* Allow scrolling for cart items */
+  margin-bottom: 20px;
+}
+
+.cart-popup .cart-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  padding: 10px;
+  background-color: #f7f7f7; /* Light background for cart items */
+  border-radius: 10px;
+}
+
+.cart-popup .cart-item img {
+  width: 50px;
+  height: 50px;
+  border-radius: 5px; /* Slightly rounded item images */
+}
+
+.cart-popup .cart-total {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: right;
+  margin-bottom: 10px;
+  color: #333; /* Keep your original text color */
+}
+
+.cart-popup .checkout-btn {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #ff0000; /* Use your original button color */
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.cart-popup .checkout-btn:hover {
+  background-color: #cc0000; /* Darker red on hover */
+}
+.remove-item,
+.proceed-to-checkout {
+    background-color: #8B0000; /* Dark red for both buttons */
+    color: white; /* Text color */
+    border: none; /* No border */
+    border-radius: 4px; /* Slightly rounded corners */
+    padding: 8px 12px; /* Spacing for button */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transitions */
+}
+
+/* Hover Effects */
+.remove-item:hover,
+.proceed-to-checkout:hover {
+    background-color: #FF0000; /* Red on hover for both */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+
+iframe {
+  width: 100%; /* Responsive width */
+  height: auto; /* Fixed height */
+  border: 0;
+}
+
+/* Mobile Responsive Styling */
+@media screen and (max-width: 768px) {
+  /* Body */
+  body {
+      padding-top: 60px; /* Adjust top padding for smaller screens */
+      background-image: url('../Assets/images/body.jpg');
+      background-size: cover; /* Ensure the background covers the entire area */
+  }
+
+  /* Navigation */
+  nav {
+      display: flex; /* Use flexbox */
+      flex-direction: column; /* Stack items vertically */
+      align-items: center; /* Center align items */
+      padding: 10px 15px; /* Adjust padding */
+  }
+
+  .navTop {
+      display: flex; /* Flex container for logo and account/cart */
+      flex-direction: column; /* Stack logo and account/cart vertically */
+      align-items: center; /* Center align items */
+      margin-bottom: 10px; /* Space below navTop */
+  }
+
+  .logo {
+      margin-bottom: 5px; /* Space between logo and nav items */
+      align-items: center;
+  }
+
+  .account-cart {
+      display: flex; /* Use flex to arrange items */
+      align-items: center; /* Center vertically */
+      justify-content: center; /* Center items horizontally */
+      
+      margin-left: 100px;
+  }
+
+  .account,
+  .cart {
+      font-size: 16px; /* Smaller font size */
+      margin: 10px 10px; /* Space between account and cart */
+      text-align: center; /* Center text */
+  }
+
+  .searchInput {
+      width: 90%; /* Full width search input */
+      margin: 10px 0; /* Margin adjustment */
+  }
+
+  /* Headings */
+  h1 {
+      font-size: 36px; /* Responsive font size */
+      text-align: center; /* Center align the main heading */
+  }
+
+  h2 {
+      font-size: 28px; /* Responsive font size */
+      text-align: center; /* Center align the subheadings */
+  }
+
+  /* Slider Section */
+  .video {
+      height: 50vh; /* Reduced height */
+  }
+
+  .textOverlay {
+      font-size: 36px; /* Responsive font size */
+  }
+
+  /* Brand Intro */
+  .brand-intro {
+      padding: 30px; /* Adjust padding */
+      border-radius: 8px; /* Reduce border-radius */
+      text-align: center; /* Center align brand intro text */
+  }
+
+  .brand-intro h1 {
+      font-size: 32px; /* Responsive font size */
+      padding: 10px 20px; /* Adjust padding */
+  }
+
+  .brand-intro p {
+      font-size: 1em; /* Adjust font size */
+  }
+
+  /* Products Section */
+  .products {
+      padding: 20px; /* Reduce padding */
+      text-align: center; /* Center align products section */
+  }
+
+  .products-header {
+      margin-bottom: 20px; /* Space below heading */
+      text-align: center; /* Center text in products header */
+  }
+
+  .products-header h2 {
+      font-size: 36px; /* Adjust heading size */
+      padding: 10px 20px; /* Adjust padding */
+  }
+
+  .product {
+      width: 40%; /* Make product cards smaller */
+      height: auto; /* Auto height */
+      margin: 10px auto; /* Center with auto margins */
+      border: 1px solid #ddd; /* Optional border for visibility */
+      border-radius: 8px; /* Optional rounded corners */
+      padding: 10px; /* Padding inside product cards */
+  }
+
+  /* Popup Styles */
+  .product-popup {
+      width: 90%; /* Full width popup */
+      padding: 10px; /* Adjust padding */
+  }
+
+  .popup-title {
+      font-size: 18px; /* Adjust font size */
+  }
+
+  .popup-price {
+      font-size: 16px; /* Adjust font size */
+  }
+
+  /* Footer */
+  .footer-content {
+      flex-direction: column; /* Stack footer items */
+      align-items: center; /* Center footer items */
+  }
+
+  .footer-left {
+      margin-bottom: 20px; /* Margin below footer left */
+  }
+
+  .footer-center,
+  .footer-right {
+      align-items: center; /* Center align items */
+  }
+
+  .footer-bottom {
+      padding: 10px 0; /* Padding adjustments */
+  }
+}
+
+/* Extra Small Devices (Mobile Phones) */
+@media screen and (max-width: 480px) {
+  .searchInput {
+      width: 100%; /* Full width for search input */
+  }
+
+  .menuItem {
+      font-size: 16px; /* Further reduce font size */
+  }
+
+  h1 {
+      font-size: 28px; /* Further reduce heading size */
+  }
+
+  h2 {
+      font-size: 24px; /* Further reduce heading size */
+  }
+
+  .textOverlay {
+      font-size: 28px; /* Further reduce overlay font size */
+  }
+
+  .brand-intro h1 {
+      font-size: 28px; /* Further reduce heading size */
+  }
+
+  .product {
+      width: 70%; /* Adjust product cards for small screens */
+      margin: 5px auto; /* Center with auto margins */
+  }
+
+  .popup-title {
+      font-size: 16px; /* Smaller font size */
+  }
+
+  .popup-price {
+      font-size: 14px; /* Smaller font size */
+  }
+
+  .footer-content {
+      padding: 10px; /* Padding adjustments for footer */
+  }
+}
+
+
+
+
+
+
+
+
+

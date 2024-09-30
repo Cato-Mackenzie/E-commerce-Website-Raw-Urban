@@ -1,0 +1,1410 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RawUrban</title>
+    <link rel="stylesheet" href="Assets/style.css">
+    <link rel="icon" href="Assets/images/logo.png" type="image/png">
+    <link href="https://fonts.googleapis.com/css2?family=Nosifer&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+
+<body>
+
+   <!-- Navigation -->
+<nav>
+    <div class="navTop">
+        <div class="logo"><img src="Assets/images/logo.png" alt="RawUrban Logo" class="logoImage">Raw<span>Urban</span></div>
+        
+        <!-- Add Account and Cart Options Here -->
+        <div class="account-cart">
+            <div class="account">
+                <i class="fas fa-user"></i> Account
+            </div>
+            <div class="cart">
+                <i class="fas fa-shopping-cart"></i> Cart  <span class="cart-count">0</span>
+            </div>
+        </div>
+    </div>
+    <div class="search">
+        <input class="searchInput" type="text" placeholder="Search...">
+    </div>
+    <div class="menu" >
+        <a href="#"class="menuItem">Home</a>
+        <a href="#about" class="menuItem">About</a>
+        <a href="#products" class="menuItem">Products</a>
+    </div>
+</nav>
+    <!-- video Section -->
+    <section class="video">
+        <h1>Slider Section</h1>
+        <div class="videoContainer">
+            <video autoplay muted loop playsinline>
+                <source src="Assets/video/skate.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="textOverlay">Where High Fashion Meets the Skateboarding Pulse</div>
+        </div>
+    </section>
+
+    <section class="brand-intro" id="about">
+        <div class="container">
+          <h1>Welcome to RawUrban!</h1>
+          <p>We’re a small, dynamic merch company born from the vibrant intersection of Japanese street culture and high fashion. Our brand merges the raw energy of skateboarding with the sophistication of Japanese design, crafting apparel that tells a story of innovation and individuality.</p>
+          <p>At RawUrban, we blend the gritty allure of urban streets with luxurious materials and meticulous craftsmanship. Our collection features everything from sleek, minimalist pieces to striking, avant-garde designs, all inspired by Japan's rich fashion heritage.</p>
+          <p>Elevate your style with our exclusive range of apparel and accessories, crafted to challenge conventions and set new trends. Join the RawUrban community and experience fashion that embodies the fearless spirit of skateboarding and Japanese style.</p>
+          <p></p>
+        </div>
+      </section>
+    
+    <!-- Products Section -->
+    <section class="products" id="products">
+        <div class="products-header">
+            <h2>Products</h2>
+            <select class="sort-category">
+                <option value="all">All products</option>
+                <option value="beanies">Beanies</option>
+                <option value="hats">Hats</option>
+                <option value="hoodies">Hoodies</option>
+                <option value="longtees">Long Tees</option>
+                <option value="shirts">Shirts</option>
+                <option value="shoes">Shoes</option>
+            </select>
+        </div>
+
+        <div class="all-products">
+            
+            
+            <!-- Product 1: Beanie -->
+            <div class="product" data-category="beanies">
+                <img src="Assets/images/beanies/yellowsmile.jpg" alt="Yellow Smile Beanie">
+                <div class="product-info">
+                    <h4 class="product-title">Yellow Smile Beanie</h4>
+                    <p class="product-price">R100</p>
+                    <div class="product-rating">
+                        <span class="star" data-value="1">&#9733;</span>
+                        <span class="star" data-value="2">&#9733;</span>
+                        <span class="star" data-value="3">&#9733;</span>
+                        <span class="star" data-value="4">&#9733;</span>
+                        <span class="star" data-value="5">&#9733;</span>
+                        <span class="average-rating">4.7</span>
+                    </div>
+                    <button class="product-btn">Add to Cart</button>
+                    <!-- Popup -->
+                    <div class="product-popup">
+                        <div class="popup-content">
+                            <span class="popup-close">&times;</span>
+                            <img class="popup-image" src="Assets/images/beanies/yellowsmile.jpg" alt="Yellow Smile Beanie">
+                            <h4 class="popup-title">Yellow Smile Beanie</h4>
+                            <p class="popup-price">Price: R100</p>
+                            <select class="size-select">
+                                <option value="One Size">One Size</option>
+                            </select>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Product 2: Hat -->
+            <div class="product" data-category="hats">
+                <img src="Assets/images/hats/black.jpg" alt="Blacktoykohat">
+                <div class="product-info">
+                    <h4 class="product-title">Black Toyko Hat</h4>
+                    <p class="product-price">R120</p>
+                    <div class="product-rating">
+                        <span class="star" data-value="1">&#9733;</span>
+                        <span class="star" data-value="2">&#9733;</span>
+                        <span class="star" data-value="3">&#9733;</span>
+                        <span class="star" data-value="4">&#9733;</span>
+                        <span class="star" data-value="5">&#9733;</span>
+                        <span class="average-rating">4.5</span>
+                    </div>
+                    <button class="product-btn">Add to Cart</button>
+                    <!-- Popup -->
+                    <div class="product-popup">
+                        <div class="popup-content">
+                            <span class="popup-close">&times;</span>
+                            <img class="popup-image" src="Assets/images/hats/black.jpg" alt="Blacktoykohat">
+                            <h4 class="popup-title">Black Toyko Hat</h4>
+                            <p class="popup-price">Price: R120</p>
+                            <select class="size-select">
+                                <option value="One Size">One Size</option>
+                            </select>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 3: Hoodie -->
+            <div class="product" data-category="hoodies">
+                <img src="Assets/images/hoodies/black.jpg" alt="BlackAnimeHoodie">
+                <div class="product-info">
+                    <h4 class="product-title">Black Anime Hoodie</h4>
+                    <p class="product-price">R350</p>
+                    <div class="product-rating">
+                        <span class="star" data-value="1">&#9733;</span>
+                        <span class="star" data-value="2">&#9733;</span>
+                        <span class="star" data-value="3">&#9733;</span>
+                        <span class="star" data-value="4">&#9733;</span>
+                        <span class="star" data-value="5">&#9733;</span>
+                        <span class="average-rating">4.6</span>
+                    </div>
+                    <button class="product-btn">Add to Cart</button>
+                    <!-- Popup -->
+                    <div class="product-popup">
+                        <div class="popup-content">
+                            <span class="popup-close">&times;</span>
+                            <img class="popup-image" src="Assets/images/hoodies/black.jpg" alt="BlackAnimeHoodie">
+                            <h4 class="popup-title">Black Anime Hoodie</h4>
+                            <p class="popup-price">Price: R350</p>
+                            <select class="size-select">
+                                <option value="XS">XS</option>
+                                <option value="S">S</option>
+                                <option value="M">M</option>
+                                <option value="L">L</option>
+                                <option value="XL">XL</option>
+                                <option value="XXL">XXL</option>
+                            </select>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 4: Shoes -->
+            <div class="product" data-category="shoes">
+                <img src="Assets/images/shoes/black.jpg" alt="Black Lakai Sneakers">
+                <div class="product-info">
+                    <h4 class="product-title">Black Lakai Sneakers</h4>
+                    <p class="product-price">R500</p>
+                    <div class="product-rating">
+                        <span class="star" data-value="1">&#9733;</span>
+                        <span class="star" data-value="2">&#9733;</span>
+                        <span class="star" data-value="3">&#9733;</span>
+                        <span class="star" data-value="4">&#9733;</span>
+                        <span class="star" data-value="5">&#9733;</span>
+                        <span class="average-rating">4.8</span>
+                    </div>
+                    <button class="product-btn">Add to Cart</button>
+                    <!-- Popup -->
+                    <div class="product-popup">
+                        <div class="popup-content">
+                            <span class="popup-close">&times;</span>
+                            <img class="popup-image" src="Assets/images/shoes/black.jpg" alt="Black Lakai Sneakers">
+                            <h4 class="popup-title">Black Lakai Sneakers</h4>
+                            <p class="popup-price">Price: R500</p>
+                            <select class="size-select">
+                                <!-- Options up to 12 -->
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                                <option value="11">11</option>
+                                <option value="12">12</option>
+                            </select>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+ <!-- Product 5: Shirt -->
+ <div class="product" data-category="shirts">
+    <img src="Assets/images/short-tees/anime.jpg" alt="WhiteOnepieceRamenShirt">
+    <div class="product-info">
+        <h4 class="product-title">White Onepiece Ramen Shirt</h4>
+        <p class="product-price">R200</p>
+        <div class="product-rating">
+            <span class="star" data-value="1">&#9733;</span>
+            <span class="star" data-value="2">&#9733;</span>
+            <span class="star" data-value="3">&#9733;</span>
+            <span class="star" data-value="4">&#9733;</span>
+            <span class="star" data-value="5">&#9733;</span>
+            <span class="average-rating">4.6</span>
+        </div>
+        <button class="product-btn">Add to Cart</button>
+        <!-- Popup -->
+        <div class="product-popup">
+            <div class="popup-content">
+                <span class="popup-close">&times;</span>
+                <img class="popup-image" src="Assets/images/short-tees/anime.jpg" alt="WhiteOnepieceRamenShirt">
+                <h4 class="popup-title">White Onepiece Ramen Shirt</h4>
+                <p class="popup-price">Price: R200</p>
+                <select class="size-select">
+                    <option value="XS">XS</option>
+                    <option value="S">S</option>
+                    <option value="M">M</option>
+                    <option value="L">L</option>
+                    <option value="XL">XL</option>
+                    <option value="XXL">XXL</option>
+                </select>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+ <!-- Product 6: Long Tee -->
+ <div class="product" data-category="longtees">
+    <img src="Assets/images/long-tees/floral.jpg" alt="FloralLongTee">
+    <div class="product-info">
+        <h4 class="product-title">Floral Long Tee</h4>
+        <p class="product-price">R250</p>
+        <div class="product-rating">
+            <span class="star" data-value="1">&#9733;</span>
+            <span class="star" data-value="2">&#9733;</span>
+            <span class="star" data-value="3">&#9733;</span>
+            <span class="star" data-value="4">&#9733;</span>
+            <span class="star" data-value="5">&#9733;</span>
+            <span class="average-rating">4.6</span>
+        </div>
+        <button class="product-btn">Add to Cart</button>
+        <!-- Popup -->
+        <div class="product-popup">
+            <div class="popup-content">
+                <span class="popup-close">&times;</span>
+                <img class="popup-image" src="Assets/images/long-tees/floral.jpg" alt="FloralLongTee">
+                <h4 class="popup-title">Floral Long Tee</h4>
+                <p class="popup-price">Price: R250</p>
+                <select class="size-select">
+                    <option value="XS">XS</option>
+                    <option value="S">S</option>
+                    <option value="M">M</option>
+                    <option value="L">L</option>
+                    <option value="XL">XL</option>
+                    <option value="XXL">XXL</option>
+                </select>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+ <!-- Product 7: Beanie -->
+            <div class="product" data-category="beanies">
+                <img src="Assets/images/beanies/blue.jpg" alt="BlueDustBeanie">
+                <div class="product-info">
+                    <h4 class="product-title">Blue Dust Beanie</h4>
+                    <p class="product-price">R100</p>
+                    <div class="product-rating">
+                        <span class="star" data-value="1">&#9733;</span>
+                        <span class="star" data-value="2">&#9733;</span>
+                        <span class="star" data-value="3">&#9733;</span>
+                        <span class="star" data-value="4">&#9733;</span>
+                        <span class="star" data-value="5">&#9733;</span>
+                        <span class="average-rating">4.7</span>
+                    </div>
+                    <button class="product-btn">Add to Cart</button>
+                    <!-- Popup -->
+                    <div class="product-popup">
+                        <div class="popup-content">
+                            <span class="popup-close">&times;</span>
+                            <img class="popup-image" src="Assets/images/beanies/blue.jpg" alt="BlueDustBeanie">
+                            <h4 class="popup-title">Blue Dust Beanie</h4>
+                            <p class="popup-price">Price: R100</p>
+                            <select class="size-select">
+                                <option value="One Size">One Size</option>
+                            </select>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Product 8: Hat -->
+            <div class="product" data-category="hats">
+                <img src="Assets/images/hats/brown.jpg" alt="BrownSmileHat">
+                <div class="product-info">
+                    <h4 class="product-title">Brown Smile Hat</h4>
+                    <p class="product-price">R150</p>
+                    <div class="product-rating">
+                        <span class="star" data-value="1">&#9733;</span>
+                        <span class="star" data-value="2">&#9733;</span>
+                        <span class="star" data-value="3">&#9733;</span>
+                        <span class="star" data-value="4">&#9733;</span>
+                        <span class="star" data-value="5">&#9733;</span>
+                        <span class="average-rating">4.5</span>
+                    </div>
+                    <button class="product-btn">Add to Cart</button>
+                    <!-- Popup -->
+                    <div class="product-popup">
+                        <div class="popup-content">
+                            <span class="popup-close">&times;</span>
+                            <img class="popup-image" src="Assets/images/hats/brown.jpg" alt="BrownSmileHat">
+                            <h4 class="popup-title">Brown Smile Hat</h4>
+                            <p class="popup-price">Price: R150</p>
+                            <select class="size-select">
+                                <option value="One Size">One Size</option>
+                            </select>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 9: Hoodie -->
+            <div class="product" data-category="hoodies">
+                <img src="Assets/images/hoodies/pink.jpg" alt="PinkAnimeHoodie">
+                <div class="product-info">
+                    <h4 class="product-title">Pink Anime Hoodie</h4>
+                    <p class="product-price">R350</p>
+                    <div class="product-rating">
+                        <span class="star" data-value="1">&#9733;</span>
+                        <span class="star" data-value="2">&#9733;</span>
+                        <span class="star" data-value="3">&#9733;</span>
+                        <span class="star" data-value="4">&#9733;</span>
+                        <span class="star" data-value="5">&#9733;</span>
+                        <span class="average-rating">4.6</span>
+                    </div>
+                    <button class="product-btn">Add to Cart</button>
+                    <!-- Popup -->
+                    <div class="product-popup">
+                        <div class="popup-content">
+                            <span class="popup-close">&times;</span>
+                            <img class="popup-image" src="Assets/images/hoodies/pink.jpg" alt="PinkAnimeHoodie">
+                            <h4 class="popup-title">Pink Anime Hoodie</h4>
+                            <p class="popup-price">Price: R350</p>
+                            <select class="size-select">
+                                <option value="XS">XS</option>
+                                <option value="S">S</option>
+                                <option value="M">M</option>
+                                <option value="L">L</option>
+                                <option value="XL">XL</option>
+                                <option value="XXL">XXL</option>
+                            </select>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 10: Shoes -->
+            <div class="product" data-category="shoes">
+                <img src="Assets/images/shoes/blue.jpg" alt="Blue Lakai Sneakers">
+                <div class="product-info">
+                    <h4 class="product-title">Blue Lakai Sneakers</h4>
+                    <p class="product-price">R550</p>
+                    <div class="product-rating">
+                        <span class="star" data-value="1">&#9733;</span>
+                        <span class="star" data-value="2">&#9733;</span>
+                        <span class="star" data-value="3">&#9733;</span>
+                        <span class="star" data-value="4">&#9733;</span>
+                        <span class="star" data-value="5">&#9733;</span>
+                        <span class="average-rating">4.8</span>
+                    </div>
+                    <button class="product-btn">Add to Cart</button>
+                    <!-- Popup -->
+                    <div class="product-popup">
+                        <div class="popup-content">
+                            <span class="popup-close">&times;</span>
+                            <img class="popup-image" src="Assets/images/shoes/blue.jpg" alt="Blue Lakai Sneakers">
+                            <h4 class="popup-title">Blue Lakai Sneakers</h4>
+                            <p class="popup-price">Price: R550</p>
+                            <select class="size-select">
+                                <!-- Options up to 12 -->
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                                <option value="11">11</option>
+                                <option value="12">12</option>
+                            </select>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+ <!-- Product 11: Shirt -->
+ <div class="product" data-category="shirts">
+    <img src="Assets/images/short-tees/ramen.jpg" alt="YellowAnimeRamenShirt">
+    <div class="product-info">
+        <h4 class="product-title">Yellow Anime Ramen Shirt</h4>
+        <p class="product-price">R200</p>
+        <div class="product-rating">
+            <span class="star" data-value="1">&#9733;</span>
+            <span class="star" data-value="2">&#9733;</span>
+            <span class="star" data-value="3">&#9733;</span>
+            <span class="star" data-value="4">&#9733;</span>
+            <span class="star" data-value="5">&#9733;</span>
+            <span class="average-rating">4.6</span>
+        </div>
+        <button class="product-btn">Add to Cart</button>
+        <!-- Popup -->
+        <div class="product-popup">
+            <div class="popup-content">
+                <span class="popup-close">&times;</span>
+                <img class="popup-image" src="Assets/images/short-tees/ramen.jpg" alt="YellowAnimeRamenShirt">
+                <h4 class="popup-title">Yellow Anime Ramen Shirt</h4>
+                <p class="popup-price">Price: R200</p>
+                <select class="size-select">
+                    <option value="XS">XS</option>
+                    <option value="S">S</option>
+                    <option value="M">M</option>
+                    <option value="L">L</option>
+                    <option value="XL">XL</option>
+                    <option value="XXL">XXL</option>
+                </select>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+ <!-- Product 12: Long Tee -->
+ <div class="product" data-category="longtees">
+    <img src="Assets/images/long-tees/greypink.jpg" alt="PinkSmileyLongTee">
+    <div class="product-info">
+        <h4 class="product-title">PinkSmileyLongTee</h4>
+        <p class="product-price">R250</p>
+        <div class="product-rating">
+            <span class="star" data-value="1">&#9733;</span>
+            <span class="star" data-value="2">&#9733;</span>
+            <span class="star" data-value="3">&#9733;</span>
+            <span class="star" data-value="4">&#9733;</span>
+            <span class="star" data-value="5">&#9733;</span>
+            <span class="average-rating">4.6</span>
+        </div>
+        <button class="product-btn">Add to Cart</button>
+        <!-- Popup -->
+        <div class="product-popup">
+            <div class="popup-content">
+                <span class="popup-close">&times;</span>
+                <img class="popup-image" src="Assets/images/long-tees/greypink.jpg" alt="PinkSmileyLongTee">
+                <h4 class="popup-title">Pink Smiley Long Tee</h4>
+                <p class="popup-price">Price: R250</p>
+                <select class="size-select">
+                    <option value="XS">XS</option>
+                    <option value="S">S</option>
+                    <option value="M">M</option>
+                    <option value="L">L</option>
+                    <option value="XL">XL</option>
+                    <option value="XXL">XXL</option>
+                </select>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+</div>
+ <!-- Product 13: Beanie -->
+            <div class="product" data-category="beanies">
+                <img src="Assets/images/beanies/darkgrey.jpg" alt="Grey Smile Beanie">
+                <div class="product-info">
+                    <h4 class="product-title">Grey Smile Beanie</h4>
+                    <p class="product-price">R100</p>
+                    <div class="product-rating">
+                        <span class="star" data-value="1">&#9733;</span>
+                        <span class="star" data-value="2">&#9733;</span>
+                        <span class="star" data-value="3">&#9733;</span>
+                        <span class="star" data-value="4">&#9733;</span>
+                        <span class="star" data-value="5">&#9733;</span>
+                        <span class="average-rating">4.7</span>
+                    </div>
+                    <button class="product-btn">Add to Cart</button>
+                    <!-- Popup -->
+                    <div class="product-popup">
+                        <div class="popup-content">
+                            <span class="popup-close">&times;</span>
+                            <img class="popup-image" src="Assets/images/beanies/darkgrey.jpg" alt="Grey Smile Beanie">
+                            <h4 class="popup-title">Grey Smile Beanie</h4>
+                            <p class="popup-price">Price: R100</p>
+                            <select class="size-select">
+                                <option value="One Size">One Size</option>
+                            </select>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Product 14: Hat -->
+            <div class="product" data-category="hats">
+                <img src="Assets/images/hats/navy.jpg" alt="NavyOsakaHat">
+                <div class="product-info">
+                    <h4 class="product-title">Navy Osaka Hat</h4>
+                    <p class="product-price">R120</p>
+                    <div class="product-rating">
+                        <span class="star" data-value="1">&#9733;</span>
+                        <span class="star" data-value="2">&#9733;</span>
+                        <span class="star" data-value="3">&#9733;</span>
+                        <span class="star" data-value="4">&#9733;</span>
+                        <span class="star" data-value="5">&#9733;</span>
+                        <span class="average-rating">4.5</span>
+                    </div>
+                    <button class="product-btn">Add to Cart</button>
+                    <!-- Popup -->
+                    <div class="product-popup">
+                        <div class="popup-content">
+                            <span class="popup-close">&times;</span>
+                            <img class="popup-image" src="Assets/images/hats/navy.jpg" alt="NavyOsakaHat">
+                            <h4 class="popup-title">Navy Osaka Hat</h4>
+                            <p class="popup-price">Price: R120</p>
+                            <select class="size-select">
+                                <option value="One Size">One Size</option>
+                            </select>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 15: Hoodie -->
+            <div class="product" data-category="hoodies">
+                <img src="Assets/images/hoodies/yellow.jpg" alt="YellowJapanHoodie">
+                <div class="product-info">
+                    <h4 class="product-title">Yellow Japan Hoodie</h4>
+                    <p class="product-price">R350</p>
+                    <div class="product-rating">
+                        <span class="star" data-value="1">&#9733;</span>
+                        <span class="star" data-value="2">&#9733;</span>
+                        <span class="star" data-value="3">&#9733;</span>
+                        <span class="star" data-value="4">&#9733;</span>
+                        <span class="star" data-value="5">&#9733;</span>
+                        <span class="average-rating">4.6</span>
+                    </div>
+                    <button class="product-btn">Add to Cart</button>
+                    <!-- Popup -->
+                    <div class="product-popup">
+                        <div class="popup-content">
+                            <span class="popup-close">&times;</span>
+                            <img class="popup-image" src="Assets/images/hoodies/yellow.jpg" alt="YellowJapanHoodie">
+                            <h4 class="popup-title">Yellow Japan Hoodie</h4>
+                            <p class="popup-price">Price: R350</p>
+                            <select class="size-select">
+                                <option value="XS">XS</option>
+                                <option value="S">S</option>
+                                <option value="M">M</option>
+                                <option value="L">L</option>
+                                <option value="XL">XL</option>
+                                <option value="XXL">XXL</option>
+                            </select>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 16: Shoes -->
+            <div class="product" data-category="shoes">
+                <img src="Assets/images/shoes/green.jpg" alt="Green Lakai Sneakers">
+                <div class="product-info">
+                    <h4 class="product-title">Green Lakai Sneakers</h4>
+                    <p class="product-price">R750</p>
+                    <div class="product-rating">
+                        <span class="star" data-value="1">&#9733;</span>
+                        <span class="star" data-value="2">&#9733;</span>
+                        <span class="star" data-value="3">&#9733;</span>
+                        <span class="star" data-value="4">&#9733;</span>
+                        <span class="star" data-value="5">&#9733;</span>
+                        <span class="average-rating">4.8</span>
+                    </div>
+                    <button class="product-btn">Add to Cart</button>
+                    <!-- Popup -->
+                    <div class="product-popup">
+                        <div class="popup-content">
+                            <span class="popup-close">&times;</span>
+                            <img class="popup-image" src="Assets/images/shoes/green.jpg" alt="Green Lakai Sneakers">
+                            <h4 class="popup-title">Green Lakai Sneakers</h4>
+                            <p class="popup-price">Price: R750</p>
+                            <select class="size-select">
+                                <!-- Options up to 12 -->
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                                <option value="11">11</option>
+                                <option value="12">12</option>
+                            </select>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+ <!-- Product 17: Shirt -->
+ <div class="product" data-category="shirts">
+    <img src="Assets/images/short-tees/smiles.jpg" alt="SmileGumballShirt">
+    <div class="product-info">
+        <h4 class="product-title">Smile Gumball Shirt</h4>
+        <p class="product-price">R200</p>
+        <div class="product-rating">
+            <span class="star" data-value="1">&#9733;</span>
+            <span class="star" data-value="2">&#9733;</span>
+            <span class="star" data-value="3">&#9733;</span>
+            <span class="star" data-value="4">&#9733;</span>
+            <span class="star" data-value="5">&#9733;</span>
+            <span class="average-rating">4.6</span>
+        </div>
+        <button class="product-btn">Add to Cart</button>
+        <!-- Popup -->
+        <div class="product-popup">
+            <div class="popup-content">
+                <span class="popup-close">&times;</span>
+                <img class="popup-image" src="Assets/images/short-tees/smiles.jpg" alt="SmileGumballShirt">
+                <h4 class="popup-title">Smile Gumball Shirt</h4>
+                <p class="popup-price">Price: R200</p>
+                <select class="size-select">
+                    <option value="XS">XS</option>
+                    <option value="S">S</option>
+                    <option value="M">M</option>
+                    <option value="L">L</option>
+                    <option value="XL">XL</option>
+                    <option value="XXL">XXL</option>
+                </select>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+ <!-- Product 18: Long Tee -->
+ <div class="product" data-category="longtees">
+    <img src="Assets/images/long-tees/green.jpg" alt="GreenStripeLongTee">
+    <div class="product-info">
+        <h4 class="product-title">Green Stripe Long Tee</h4>
+        <p class="product-price">R250</p>
+        <div class="product-rating">
+            <span class="star" data-value="1">&#9733;</span>
+            <span class="star" data-value="2">&#9733;</span>
+            <span class="star" data-value="3">&#9733;</span>
+            <span class="star" data-value="4">&#9733;</span>
+            <span class="star" data-value="5">&#9733;</span>
+            <span class="average-rating">4.6</span>
+        </div>
+        <button class="product-btn">Add to Cart</button>
+        <!-- Popup -->
+        <div class="product-popup">
+            <div class="popup-content">
+                <span class="popup-close">&times;</span>
+                <img class="popup-image" src="Assets/images/long-tees/green.jpg" alt="GreenStripeLongTee">
+                <h4 class="popup-title">Green Stripe Long Tee</h4>
+                <p class="popup-price">Price: R250</p>
+                <select class="size-select">
+                    <option value="XS">XS</option>
+                    <option value="S">S</option>
+                    <option value="M">M</option>
+                    <option value="L">L</option>
+                    <option value="XL">XL</option>
+                    <option value="XXL">XXL</option>
+                </select>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+ <!-- Product 19: Beanie -->
+ <div class="product" data-category="beanies">
+    <img src="Assets/images/beanies/white.jpg" alt="White Smile Beanie">
+    <div class="product-info">
+        <h4 class="product-title">White Smile Beanie</h4>
+        <p class="product-price">R100</p>
+        <div class="product-rating">
+            <span class="star" data-value="1">&#9733;</span>
+            <span class="star" data-value="2">&#9733;</span>
+            <span class="star" data-value="3">&#9733;</span>
+            <span class="star" data-value="4">&#9733;</span>
+            <span class="star" data-value="5">&#9733;</span>
+            <span class="average-rating">4.7</span>
+        </div>
+        <button class="product-btn">Add to Cart</button>
+        <!-- Popup -->
+        <div class="product-popup">
+            <div class="popup-content">
+                <span class="popup-close">&times;</span>
+                <img class="popup-image" src="Assets/images/beanies/white.jpg" alt="White Smile Beanie">
+                <h4 class="popup-title">White Smile Beanie</h4>
+                <p class="popup-price">Price: R100</p>
+                <select class="size-select">
+                    <option value="One Size">One Size</option>
+                </select>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Product 20: Hat -->
+<div class="product" data-category="hats">
+    <img src="Assets/images/hats/greengrey.jpg" alt="GreenSamuraiHat">
+    <div class="product-info">
+        <h4 class="product-title">Green Samurai Hat</h4>
+        <p class="product-price">R110</p>
+        <div class="product-rating">
+            <span class="star" data-value="1">&#9733;</span>
+            <span class="star" data-value="2">&#9733;</span>
+            <span class="star" data-value="3">&#9733;</span>
+            <span class="star" data-value="4">&#9733;</span>
+            <span class="star" data-value="5">&#9733;</span>
+            <span class="average-rating">4.5</span>
+        </div>
+        <button class="product-btn">Add to Cart</button>
+        <!-- Popup -->
+        <div class="product-popup">
+            <div class="popup-content">
+                <span class="popup-close">&times;</span>
+                <img class="popup-image" src="Assets/images/hats/greengrey.jpg" alt="GreenSamuraiHat">
+                <h4 class="popup-title">Green Samurai Hat</h4>
+                <p class="popup-price">Price: R110</p>
+                <select class="size-select">
+                    <option value="One Size">One Size</option>
+                </select>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Product 21: Hoodie -->
+<div class="product" data-category="hoodies">
+    <img src="Assets/images/hoodies/grey.jpg" alt="BlueAnimeHoodie">
+    <div class="product-info">
+        <h4 class="product-title">Blue Anime Hoodie</h4>
+        <p class="product-price">R350</p>
+        <div class="product-rating">
+            <span class="star" data-value="1">&#9733;</span>
+            <span class="star" data-value="2">&#9733;</span>
+            <span class="star" data-value="3">&#9733;</span>
+            <span class="star" data-value="4">&#9733;</span>
+            <span class="star" data-value="5">&#9733;</span>
+            <span class="average-rating">4.6</span>
+        </div>
+        <button class="product-btn">Add to Cart</button>
+        <!-- Popup -->
+        <div class="product-popup">
+            <div class="popup-content">
+                <span class="popup-close">&times;</span>
+                <img class="popup-image" src="Assets/images/hoodies/grey.jpg" alt="BlueAnimeHoodie">
+                <h4 class="popup-title">Blue Anime Hoodie</h4>
+                <p class="popup-price">Price: R350</p>
+                <select class="size-select">
+                    <option value="XS">XS</option>
+                    <option value="S">S</option>
+                    <option value="M">M</option>
+                    <option value="L">L</option>
+                    <option value="XL">XL</option>
+                    <option value="XXL">XXL</option>
+                </select>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Product 22: Shoes -->
+<div class="product" data-category="shoes">
+    <img src="Assets/images/shoes/red.jpg" alt="Red Lakai Sneakers">
+    <div class="product-info">
+        <h4 class="product-title">Red Lakai Sneakers</h4>
+        <p class="product-price">R650</p>
+        <div class="product-rating">
+            <span class="star" data-value="1">&#9733;</span>
+            <span class="star" data-value="2">&#9733;</span>
+            <span class="star" data-value="3">&#9733;</span>
+            <span class="star" data-value="4">&#9733;</span>
+            <span class="star" data-value="5">&#9733;</span>
+            <span class="average-rating">4.8</span>
+        </div>
+        <button class="product-btn">Add to Cart</button>
+        <!-- Popup -->
+        <div class="product-popup">
+            <div class="popup-content">
+                <span class="popup-close">&times;</span>
+                <img class="popup-image" src="Assets/images/shoes/red.jpg" alt="Red Lakai Sneakers">
+                <h4 class="popup-title">Red Lakai Sneakers</h4>
+                <p class="popup-price">Price: R650</p>
+                <select class="size-select">
+                    <!-- Options up to 12 -->
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                </select>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+</div>
+    <!-- Product 23: Shirt -->
+    <div class="product" data-category="shirts">
+    <img src="Assets/images/short-tees/tee4.jpg" alt="Black Anime Shirt">
+    <div class="product-info">
+    <h4 class="product-title">Black Anime Shirt</h4>
+    <p class="product-price">R200</p>
+    <div class="product-rating">
+    <span class="star" data-value="1">&#9733;</span>
+    <span class="star" data-value="2">&#9733;</span>
+    <span class="star" data-value="3">&#9733;</span>
+    <span class="star" data-value="4">&#9733;</span>
+    <span class="star" data-value="5">&#9733;</span>
+    <span class="average-rating">4.6</span>
+    </div>
+    <button class="product-btn">Add to Cart</button>
+    <!-- Popup -->
+    <div class="product-popup">
+    <div class="popup-content">
+        <span class="popup-close">&times;</span>
+        <img class="popup-image" src="Assets/images/short-tees/tee4.jpg" alt="Black Anime Shirt">
+        <h4 class="popup-title">Black Anime Shirt</h4>
+        <p class="popup-price">Price: R200</p>
+        <select class="size-select">
+            <option value="XS">XS</option>
+            <option value="S">S</option>
+            <option value="M">M</option>
+            <option value="L">L</option>
+            <option value="XL">XL</option>
+            <option value="XXL">XXL</option>
+        </select>
+        <button class="add-to-cart">Add to Cart</button>
+    </div>
+    </div>
+    </div>
+    </div>
+
+
+<!-- Product 24: Long Tee -->
+<div class="product" data-category="longtees">
+<img src="Assets/images/long-tees/black.jpg" alt="BlackAnimeLongTee">
+<div class="product-info">
+<h4 class="product-title">Black Anime Long Tee</h4>
+<p class="product-price">R250</p>
+<div class="product-rating">
+<span class="star" data-value="1">&#9733;</span>
+<span class="star" data-value="2">&#9733;</span>
+<span class="star" data-value="3">&#9733;</span>
+<span class="star" data-value="4">&#9733;</span>
+<span class="star" data-value="5">&#9733;</span>
+<span class="average-rating">4.6</span>
+</div>
+<button class="product-btn">Add to Cart</button>
+<!-- Popup -->
+<div class="product-popup">
+<div class="popup-content">
+    <span class="popup-close">&times;</span>
+    <img class="popup-image" src="Assets/images/long-tees/black.jpg" alt="BlackAnimeLongTee">
+    <h4 class="popup-title">Black Anime Long Tee</h4>
+    <p class="popup-price">Price: R250</p>
+    <select class="size-select">
+        <option value="XS">XS</option>
+        <option value="S">S</option>
+        <option value="M">M</option>
+        <option value="L">L</option>
+        <option value="XL">XL</option>
+        <option value="XXL">XXL</option>
+    </select>
+    <button class="add-to-cart">Add to Cart</button>
+</div>
+</div>
+</div>
+</div>
+
+<!-- Product 25: Beanie -->
+<div class="product" data-category="beanies">
+    <img src="Assets/images/beanies/dustypink.jpg" alt="Dusty Pink Beanie">
+    <div class="product-info">
+        <h4 class="product-title">Dusty Pink Beanie</h4>
+        <p class="product-price">R100</p>
+        <div class="product-rating">
+            <span class="star" data-value="1">&#9733;</span>
+            <span class="star" data-value="2">&#9733;</span>
+            <span class="star" data-value="3">&#9733;</span>
+            <span class="star" data-value="4">&#9733;</span>
+            <span class="star" data-value="5">&#9733;</span>
+            <span class="average-rating">4.7</span>
+        </div>
+        <button class="product-btn">Add to Cart</button>
+        <!-- Popup -->
+        <div class="product-popup">
+            <div class="popup-content">
+                <span class="popup-close">&times;</span>
+                <img class="popup-image" src="Assets/images/beanies/dustypink.jpg" alt="Dusty Pink Beanie">
+                <h4 class="popup-title">Dusty Pink Beanie</h4>
+                <p class="popup-price">Price: R100</p>
+                <select class="size-select">
+                    <option value="One Size">One Size</option>
+                </select>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Product 26: Hat -->
+<div class="product" data-category="hats">
+    <img src="Assets/images/hats/green.jpg" alt="GreenHat">
+    <div class="product-info">
+        <h4 class="product-title">Green Hat</h4>
+        <p class="product-price">R110</p>
+        <div class="product-rating">
+            <span class="star" data-value="1">&#9733;</span>
+            <span class="star" data-value="2">&#9733;</span>
+            <span class="star" data-value="3">&#9733;</span>
+            <span class="star" data-value="4">&#9733;</span>
+            <span class="star" data-value="5">&#9733;</span>
+            <span class="average-rating">4.5</span>
+        </div>
+        <button class="product-btn">Add to Cart</button>
+        <!-- Popup -->
+        <div class="product-popup">
+            <div class="popup-content">
+                <span class="popup-close">&times;</span>
+                <img class="popup-image" src="Assets/images/hats/green.jpg" alt="GreenHat">
+                <h4 class="popup-title">Green Hat</h4>
+                <p class="popup-price">Price: R110</p>
+                <select class="size-select">
+                    <option value="One Size">One Size</option>
+                </select>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Product 27: Hoodie -->
+<div class="product" data-category="hoodies">
+    <img src="Assets/images/hoodies/brownhoodie.jpg" alt="BrownAnimeHoodie">
+    <div class="product-info">
+        <h4 class="product-title">Brown Anime Hoodie</h4>
+        <p class="product-price">R350</p>
+        <div class="product-rating">
+            <span class="star" data-value="1">&#9733;</span>
+            <span class="star" data-value="2">&#9733;</span>
+            <span class="star" data-value="3">&#9733;</span>
+            <span class="star" data-value="4">&#9733;</span>
+            <span class="star" data-value="5">&#9733;</span>
+            <span class="average-rating">4.6</span>
+        </div>
+        <button class="product-btn">Add to Cart</button>
+        <!-- Popup -->
+        <div class="product-popup">
+            <div class="popup-content">
+                <span class="popup-close">&times;</span>
+                <img class="popup-image" src="Assets/images/hoodies/brownhoodie.jpg" alt="BrownAnimeHoodie">
+                <h4 class="popup-title">Brown Anime Hoodie</h4>
+                <p class="popup-price">Price: R350</p>
+                <select class="size-select">
+                    <option value="XS">XS</option>
+                    <option value="S">S</option>
+                    <option value="M">M</option>
+                    <option value="L">L</option>
+                    <option value="XL">XL</option>
+                    <option value="XXL">XXL</option>
+                </select>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Product 28: Shoes -->
+<div class="product" data-category="shoes">
+    <img src="Assets/images/shoes/white.jpg" alt="White Lakai Sneakers">
+    <div class="product-info">
+        <h4 class="product-title">White Lakai Sneakers</h4>
+        <p class="product-price">R950</p>
+        <div class="product-rating">
+            <span class="star" data-value="1">&#9733;</span>
+            <span class="star" data-value="2">&#9733;</span>
+            <span class="star" data-value="3">&#9733;</span>
+            <span class="star" data-value="4">&#9733;</span>
+            <span class="star" data-value="5">&#9733;</span>
+            <span class="average-rating">4.8</span>
+        </div>
+        <button class="product-btn">Add to Cart</button>
+        <!-- Popup -->
+        <div class="product-popup">
+            <div class="popup-content">
+                <span class="popup-close">&times;</span>
+                <img class="popup-image" src="Assets/images/shoes/white.jpg" alt="white Lakai Sneakers">
+                <h4 class="popup-title">White Lakai Sneakers</h4>
+                <p class="popup-price">Price: R950</p>
+                <select class="size-select">
+                    <!-- Options up to 12 -->
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                </select>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+</div>
+    <!-- Product 29: Shirt -->
+    <div class="product" data-category="shirts">
+    <img src="Assets/images/short-tees/tee7.jpg" alt="Grey Anime Shirt">
+    <div class="product-info">
+    <h4 class="product-title">Grey Anime Shirt</h4>
+    <p class="product-price">R200</p>
+    <div class="product-rating">
+    <span class="star" data-value="1">&#9733;</span>
+    <span class="star" data-value="2">&#9733;</span>
+    <span class="star" data-value="3">&#9733;</span>
+    <span class="star" data-value="4">&#9733;</span>
+    <span class="star" data-value="5">&#9733;</span>
+    <span class="average-rating">4.6</span>
+    </div>
+    <button class="product-btn">Add to Cart</button>
+    <!-- Popup -->
+    <div class="product-popup">
+    <div class="popup-content">
+        <span class="popup-close">&times;</span>
+        <img class="popup-image" src="Assets/images/short-tees/tee7.jpg" alt="Grey Anime Shirt">
+        <h4 class="popup-title">Grey Anime Shirt</h4>
+        <p class="popup-price">Price: R200</p>
+        <select class="size-select">
+            <option value="XS">XS</option>
+            <option value="S">S</option>
+            <option value="M">M</option>
+            <option value="L">L</option>
+            <option value="XL">XL</option>
+            <option value="XXL">XXL</option>
+        </select>
+        <button class="add-to-cart">Add to Cart</button>
+    </div>
+    </div>
+    </div>
+    </div>
+
+
+<!-- Product 30: Long Tee -->
+<div class="product" data-category="longtees">
+<img src="Assets/images/long-tees/yellow.jpg" alt="YellowLongTee">
+<div class="product-info">
+<h4 class="product-title">Yellow Long Tee</h4>
+<p class="product-price">R250</p>
+<div class="product-rating">
+<span class="star" data-value="1">&#9733;</span>
+<span class="star" data-value="2">&#9733;</span>
+<span class="star" data-value="3">&#9733;</span>
+<span class="star" data-value="4">&#9733;</span>
+<span class="star" data-value="5">&#9733;</span>
+<span class="average-rating">4.6</span>
+</div>
+<button class="product-btn">Add to Cart</button>
+<!-- Popup -->
+<div class="product-popup">
+<div class="popup-content">
+    <span class="popup-close">&times;</span>
+    <img class="popup-image" src="Assets/images/long-tees/yellow.jpg" alt="YellowLongTee">
+    <h4 class="popup-title">Yellow Long Tee</h4>
+    <p class="popup-price">Price: R250</p>
+    <select class="size-select">
+        <option value="XS">XS</option>
+        <option value="S">S</option>
+        <option value="M">M</option>
+        <option value="L">L</option>
+        <option value="XL">XL</option>
+        <option value="XXL">XXL</option>
+    </select>
+    <button class="add-to-cart">Add to Cart</button>
+</div>
+</div>
+</div>
+</div>
+
+<!-- Product 31: Beanie -->
+<div class="product" data-category="beanies">
+    <img src="Assets/images/beanies/green.jpg" alt="Green Smile Beanie">
+    <div class="product-info">
+        <h4 class="product-title">Green Smile Beanie</h4>
+        <p class="product-price">R100</p>
+        <div class="product-rating">
+            <span class="star" data-value="1">&#9733;</span>
+            <span class="star" data-value="2">&#9733;</span>
+            <span class="star" data-value="3">&#9733;</span>
+            <span class="star" data-value="4">&#9733;</span>
+            <span class="star" data-value="5">&#9733;</span>
+            <span class="average-rating">4.7</span>
+        </div>
+        <button class="product-btn">Add to Cart</button>
+        <!-- Popup -->
+        <div class="product-popup">
+            <div class="popup-content">
+                <span class="popup-close">&times;</span>
+                <img class="popup-image" src="Assets/images/beanies/green.jpg" alt="Green Smile Beanie">
+                <h4 class="popup-title">Green Smile Beanie</h4>
+                <p class="popup-price">Price: R100</p>
+                <select class="size-select">
+                    <option value="One Size">One Size</option>
+                </select>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Product 32: Hat -->
+<div class="product" data-category="hats">
+    <img src="Assets/images/hats/grey.jpg" alt="Grey Hat">
+    <div class="product-info">
+        <h4 class="product-title">Grey Hat</h4>
+        <p class="product-price">R140</p>
+        <div class="product-rating">
+            <span class="star" data-value="1">&#9733;</span>
+            <span class="star" data-value="2">&#9733;</span>
+            <span class="star" data-value="3">&#9733;</span>
+            <span class="star" data-value="4">&#9733;</span>
+            <span class="star" data-value="5">&#9733;</span>
+            <span class="average-rating">4.5</span>
+        </div>
+        <button class="product-btn">Add to Cart</button>
+        <!-- Popup -->
+        <div class="product-popup">
+            <div class="popup-content">
+                <span class="popup-close">&times;</span>
+                <img class="popup-image" src="Assets/images/hats/grey.jpg" alt="Grey Hat">
+                <h4 class="popup-title">Grey Hat</h4>
+                <p class="popup-price">Price: R140</p>
+                <select class="size-select">
+                    <option value="One Size">One Size</option>
+                </select>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Product 33: Hoodie -->
+<div class="product" data-category="hoodies">
+    <img src="Assets/images/hoodies/white2.jpg" alt="WhiteAnimeHoodie">
+    <div class="product-info">
+        <h4 class="product-title">White Anime Hoodie</h4>
+        <p class="product-price">R350</p>
+        <div class="product-rating">
+            <span class="star" data-value="1">&#9733;</span>
+            <span class="star" data-value="2">&#9733;</span>
+            <span class="star" data-value="3">&#9733;</span>
+            <span class="star" data-value="4">&#9733;</span>
+            <span class="star" data-value="5">&#9733;</span>
+            <span class="average-rating">4.6</span>
+        </div>
+        <button class="product-btn">Add to Cart</button>
+        <!-- Popup -->
+        <div class="product-popup">
+            <div class="popup-content">
+                <span class="popup-close">&times;</span>
+                <img class="popup-image" src="Assets/images/hoodies/white2.jpg" alt="WhiteAnimeHoodie">
+                <h4 class="popup-title">White Anime Hoodie</h4>
+                <p class="popup-price">Price: R350</p>
+                <select class="size-select">
+                    <option value="XS">XS</option>
+                    <option value="S">S</option>
+                    <option value="M">M</option>
+                    <option value="L">L</option>
+                    <option value="XL">XL</option>
+                    <option value="XXL">XXL</option>
+                </select>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Product 34: Shoes -->
+<div class="product" data-category="shoes">
+    <img src="Assets/images/shoes/grey.jpg" alt="Grey Lakai Sneakers">
+    <div class="product-info">
+        <h4 class="product-title">Grey Lakai Sneakers</h4>
+        <p class="product-price">R750</p>
+        <div class="product-rating">
+            <span class="star" data-value="1">&#9733;</span>
+            <span class="star" data-value="2">&#9733;</span>
+            <span class="star" data-value="3">&#9733;</span>
+            <span class="star" data-value="4">&#9733;</span>
+            <span class="star" data-value="5">&#9733;</span>
+            <span class="average-rating">4.8</span>
+        </div>
+        <button class="product-btn">Add to Cart</button>
+        <!-- Popup -->
+        <div class="product-popup">
+            <div class="popup-content">
+                <span class="popup-close">&times;</span>
+                <img class="popup-image" src="Assets/images/shoes/grey.jpg" alt="Grey Lakai Sneakers">
+                <h4 class="popup-title">Grey Lakai Sneakers</h4>
+                <p class="popup-price">Price: R750</p>
+                <select class="size-select">
+                    <!-- Options up to 12 -->
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                </select>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+</div>
+    <!-- Product 35: Shirt -->
+    <div class="product" data-category="shirts">
+    <img src="Assets/images/short-tees/tee5.jpg" alt="Tye Dye Anime Shirt">
+    <div class="product-info">
+    <h4 class="product-title">Tye Dye Anime Shirt</h4>
+    <p class="product-price">R200</p>
+    <div class="product-rating">
+    <span class="star" data-value="1">&#9733;</span>
+    <span class="star" data-value="2">&#9733;</span>
+    <span class="star" data-value="3">&#9733;</span>
+    <span class="star" data-value="4">&#9733;</span>
+    <span class="star" data-value="5">&#9733;</span>
+    <span class="average-rating">4.6</span>
+    </div>
+    <button class="product-btn">Add to Cart</button>
+    <!-- Popup -->
+    <div class="product-popup">
+    <div class="popup-content">
+        <span class="popup-close">&times;</span>
+        <img class="popup-image" src="Assets/images/short-tees/tee5.jpg" alt="Tye Dye Anime Shirt">
+        <h4 class="popup-title">Tye Dye Anime Shirt</h4>
+        <p class="popup-price">Price: R200</p>
+        <select class="size-select">
+            <option value="XS">XS</option>
+            <option value="S">S</option>
+            <option value="M">M</option>
+            <option value="L">L</option>
+            <option value="XL">XL</option>
+            <option value="XXL">XXL</option>
+        </select>
+        <button class="add-to-cart">Add to Cart</button>
+    </div>
+    </div>
+    </div>
+    </div>
+
+
+<!-- Product 36: Long Tee -->
+<div class="product" data-category="longtees">
+<img src="Assets/images/long-tees/kaki.jpg" alt="KhakiLongTee">
+<div class="product-info">
+<h4 class="product-title">Kaki Long Tee</h4>
+<p class="product-price">R250</p>
+<div class="product-rating">
+<span class="star" data-value="1">&#9733;</span>
+<span class="star" data-value="2">&#9733;</span>
+<span class="star" data-value="3">&#9733;</span>
+<span class="star" data-value="4">&#9733;</span>
+<span class="star" data-value="5">&#9733;</span>
+<span class="average-rating">4.6</span>
+</div>
+<button class="product-btn">Add to Cart</button>
+<!-- Popup -->
+<div class="product-popup">
+<div class="popup-content">
+    <span class="popup-close">&times;</span>
+    <img class="popup-image" src="Assets/images/long-tees/kaki.jpg" alt="KakiLongTee">
+    <h4 class="popup-title">Kaki Long Tee</h4>
+    <p class="popup-price">Price: R250</p>
+    <select class="size-select">
+        <option value="XS">XS</option>
+        <option value="S">S</option>
+        <option value="M">M</option>
+        <option value="L">L</option>
+        <option value="XL">XL</option>
+        <option value="XXL">XXL</option>
+    </select>
+    <button class="add-to-cart">Add to Cart</button>
+</div>
+</div>
+</div>
+</div>
+
+        </div>
+    </section>
+    <div class="cart-popup" style="display:none;">
+        <div class="popup-content">
+            <span class="popup-close" onclick="document.querySelector('.cart-popup').style.display='none'">&times;</span>
+            <h2>Your Cart</h2>
+            <div class="cart-items"></div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-left">
+                <div class="newsletter">
+                    <p style="color: gold;font-size: 20px;">Subscribe to our newsletter</p>
+                    <form>
+                        <input type="email" placeholder="your@email.com">
+                        <button type="submit">Join!</button>
+                    </form>
+                </div>
+                <div class="social-icons">
+                    <p style="color: gold;font-size: 20px;">Follow Us</p>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="footer-center">
+                <ul>
+                    <p style="color: gold;font-size: 20px;">Menu</p>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#products">Products</a></li>
+                </ul>
+            </div>
+            <div class="footer-right">
+                <p style="color: gold;font-size: 20px;">Our Location</p>
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14335.145974914276!2d28.013977355419925!3d-26.073233199999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e9573fa022abc83%3A0x8caaabb3684fceb1!2sGoogle%2C%20Johannesburg!5e0!3m2!1sen!2sza!4v1727682243391!5m2!1sen!2sza" 
+                        width="600" 
+                        height="450" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+               
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Cato Mackenzie. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="Assets/script.js"></script>
+</body>
+
+</html>
